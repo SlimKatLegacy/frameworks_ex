@@ -28,6 +28,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-common \
     guava \
 
+LOCAL_CFLAGS := -fno-strict-aliasing
+
 LOCAL_SRC_FILES := \
     $(call all-java-files-under, src)
 
